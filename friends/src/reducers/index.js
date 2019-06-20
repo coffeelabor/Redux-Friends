@@ -6,7 +6,6 @@ import {
   FETCH_SUCCESS,
   FETCH_FAILURE
 } from "../actions";
-import { Z_FILTERED } from "zlib";
 
 const initialState = {
   error: "",
@@ -43,3 +42,5 @@ const reducer = (state = initialState, action) => {
       };
   }
 };
+
+export default reducer;
